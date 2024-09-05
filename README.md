@@ -32,3 +32,8 @@
     - Due to the above fixed around, i am facing a new problem, in the log, it is printing twice i.e, when i am using my fixed arround and one from the logger. so don't know how to correct it.
 
 ---
+# Third Code
+---
+
+`similar to second code`
+---
