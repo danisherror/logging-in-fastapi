@@ -38,3 +38,14 @@
 `similar to second code`
 
 ---
+
+---
+# Forth Code
+---
+
+`similar to third code`
+- But i have removed the problem of log printing twice
+- I just have to do this
+    - access_log=False, in uvicorn.run()
+
+---
