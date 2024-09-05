@@ -8,5 +8,5 @@
 
 ### In this folder i have tried to do the following things:
 - main.py
-- - asd
+    - asd
 ---
