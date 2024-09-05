@@ -1,0 +1,15 @@
+2024-09-05 11:56:00 INFO     : Started server process [8680]
+2024-09-05 11:56:00 INFO     : Waiting for application startup.
+2024-09-05 11:56:00 INFO     : Application startup complete.
+2024-09-05 11:56:00 INFO     : Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-09-05 11:56:13 INFO     : 127.0.0.1:51296 - "GET /docs HTTP/1.1" 200
+2024-09-05 11:56:14 INFO     : 127.0.0.1:51296 - "GET /openapi.json HTTP/1.1" 200
+2024-09-05 11:56:18 INFO     : 127.0.0.1:51296 - "GET / HTTP/1.1" 200
+2024-09-05 11:56:18 INFO     : 127.0.0.1:51296 - "GET /favicon.ico HTTP/1.1" 404
+2024-09-05 11:56:21 INFO     : 127.0.0.1:51296 - "GET /1 HTTP/1.1" 404
+2024-09-05 11:56:27 INFO     : 127.0.0.1:51300 - "GET /items/1 HTTP/1.1" 200
+2024-09-05 11:56:30 INFO     : 127.0.0.1:51300 - "GET /items/a HTTP/1.1" 422
+2024-09-05 11:56:33 INFO     : Shutting down
+2024-09-05 11:56:33 INFO     : Waiting for application shutdown.
+2024-09-05 11:56:33 INFO     : Application shutdown complete.
+2024-09-05 11:56:33 INFO     : Finished server process [8680]
