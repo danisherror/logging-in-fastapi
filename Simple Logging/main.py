@@ -1,3 +1,4 @@
+import time
 import logging
 import logging.config
 from fastapi import FastAPI
@@ -66,7 +67,7 @@ def set_logging(log_file):
     logging.config.dictConfig(LOGGING_CONFIG)
 
 def main():
-    log_file = "app.log"
+    log_file = f"log_{time.strftime('%Y_%m_%d_%H_%M_%S')}.log"
     set_logging(log_file)
 
     uvicorn.run("main:app", host="0.0.0.0",
